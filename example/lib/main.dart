@@ -85,13 +85,13 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          brightness: Brightness.light,
+         // brightness: Brightness.light,
           backgroundColor: Colors.transparent,
           centerTitle: true,
           elevation: 0,
           title: Text(
             widget.title!,
-            style: TextStyle(color: Colors.grey, fontWeight: FontWeight.w300),
+            style: const TextStyle(color: Colors.grey, fontWeight: FontWeight.w300),
           ),
         ),
         backgroundColor: Colors.white,
